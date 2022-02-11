@@ -1,0 +1,289 @@
+<doctype HTML>
+<html>
+    <head>
+        <title>Emlak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    </head>
+    
+    <body>
+        
+        <!--Navbar Content ---->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">
+            <img src="images/banner.png">
+            </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+   
+        
+        <div class="container h-100">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchBar2">
+          <input class="searchInput" type="text" name="" placeholder="Satılık İlanlarda Ara...">
+          <a href="#" class="searchIcon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+        
+    </ul>
+   
+      <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Karşılaştır</a>
+        </li>
+          <li class="nav-item">
+        <a class="nav-link" href="#">Giriş Yap</a>
+        </li>
+          <li class="nav-item">
+        <a class="nav-link" href="#">İlan Ver</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+        
+        
+        <!--Navbar Content ---->
+        
+        
+
+        
+        <!-- Container Content --->
+        
+     <div class="container-fluid">
+        
+         
+         <h1>İlan Ekle</h1>
+        
+         <div class="addOrder">
+         
+           <form>
+         
+               <form>
+               
+               <div class="form-group">
+                   
+                   <label for="ilanAdi">İlan Adı: </label>
+                   <input type="text" class="form-control" id="ilanAdi" placeHolder="İlan Adı">
+                   
+                     <label for="ilanSahibi">İlan Sahibi: </label>
+                   <input type="text" class="form-control" id="ilanFoto" placeHolder="İlan Sahibi">
+                   
+                   <label for="ilanSahibiTel">İlan Sahibi Tel: </label>
+                   <input type="text" class="form-control" id="ilanSahibiTel" placeHolder="İlan Sahibi Telefon">
+                                                 
+                                                                    
+                   <label for="ilanSahibiFoto">İlan Sahibi Foto: </label>
+                   <input type="file" class="form-control" id="ilanSahibiFoto" placeHolder="İlan Sahibi Foto" >
+                   
+                   <label for="ilanFiyati">İlan Fiyatı</label>
+                   <input type="text" class="form-control" id="ilanFiyat" placeHolder="İlan Fiyatı" >
+                   
+                   
+                   
+                         <label for="ilanFotograflari">İlan Fotografi: </label>
+                   <input type="file" class="form-control" id="ilanFoto" placeHolder="İlan Foto" multiple>
+                   
+                   
+                    <label for="ilanDurumu">İlan Durumu: </label>
+                   <input type="text" class="form-control" id="ilanDurumu" placeHolder="İlan Durumu" >
+                   
+                   <label for="konutSekli">Konut Şekli </label>
+                   <input type="text" class="form-control" id="konutSekli" placeHolder="Konut Şekli" >
+                   
+                    <label for="odaSalon">Oda Salon Sayısı </label>
+                   <input type="text" class="form-control" id="odaSalon" placeHolder="Oda + Salon Sayısı" >
+                   
+                     <label for="metrekare">Metrekare </label>
+                   <input type="text" class="form-control" id="metrekare" placeHolder="Metrekare" >
+                   
+                   <label for="kat">Kat </label>
+                   <input type="text" class="form-control" id="kat" placeHolder="Kat" >
+                   
+                   <label for="binaYas">Bina Yaşı  </label>
+                   <input type="text" class="form-control" id="binaYas" placeHolder="Bina Yaşı" >
+                   
+                    <label for="isinmaTip">Isınma Tipi  </label>
+                   <input type="text" class="form-control" id="isinmaTip" placeHolder="Isınma Tipi" >
+                   
+                   <label for="katSayisi">Kat Sayısı  </label>
+                   <input type="text" class="form-control" id="katSayi" placeHolder="Kat Sayısı" >
+                   
+                   <label for="kredi">Kredi  </label>
+                   <input type="checkbox" class="form-control" id="kredi">
+                   
+                   <label for="Aidat">Aidat  </label>
+                   <input type="text" class="form-control" id="Aidat" placeHolder="Aidat" >
+                   
+                      <label for="Takas">Takas  </label>
+                   <input type="checkbox" class="form-control" id="Takas">
+                   
+                   
+                
+                   <button type="submit" class="btn btn-primary"  id="ilanButton" data-role="button" >İlan Ver</button>
+                    
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   </div>
+               
+               </form>
+             
+         </form>
+             
+         </div>
+       
+         
+        </div>
+        <!--Container Content --->
+        
+        <!-- Footer Content --->
+        
+        <div class="jumbotron">
+        
+            <h1>Bu bir Footer!</h1>
+            
+        </div>
+        
+        <!-- Footer Content --->
+        
+      
+        
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    
+        
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        
+          <!--JQuery Content --->
+        
+        <script>
+        
+        $(document).ready(function () {
+            
+            $(document).on('click','#ilanButton',function()
+                           {
+                                //buraya clickten sonraki kodlar gelir bu kod çalışıyor
+                
+                takeVariables();
+
+                
+                
+                           });
+            
+            function testFunc() {
+                
+                alert('test');
+                alert($advName);  
+                alert($advOwner);
+                alert($advOwnerPhone);
+                alert($advOwnerPhoto);
+                alert($advPrice);
+                alert($advStatus);
+                alert($advType);
+                alert($advField);
+                alert($advFloor);
+                alert($advBuildingAge);
+                alert($advHeatType);
+                alert($advFloorCount);
+                alert($advTax);
+                alert($advCredit);
+                alert($advSwap);
+                
+                
+            
+            }
+            
+            function takeVariables() {
+                
+                $advName = $("#ilanAdi").val();
+                 $advOwner = $("#ilanSahibi").val();
+            $advOwnerPhone = $("#ilanSahibiTel").val();
+         $advOwnerPhoto = $("#ilanSahibiFoto").val();
+                   
+        $advPrice = $("#ilanFiyat").val();   
+        $advStatus = $("#ilanDurumu").val();
+        $advType = $("#konutSekli").val();
+        $advRoom = $("#odaSalon").val();
+        $advField = $("#metrekare").val();
+        $advFloor = $("#kat").val();
+        $advBuildingAge = $("#binaYas").val();
+        $advHeatType = $("#isinmaTip").val();
+        $advFloorCount = $("#katSayisi").val();
+        $advTax = $("#Aidat").val();
+        if ($("#kredi").is(':checked'))
+            {
+                $advCredit = "Uygun";
+            }
+           else {
+               $advCredit = "Uygun Değil";
+           }
+           
+        if($("#Takas").is(':checked'))
+            {
+                $advSwap = "Var";
+            }
+           else {
+               $advSwap = "Yok";
+           }
+                
+                
+                testFunc();
+                
+            }
+            
+            
+            
+        });
+        
+        </script>
+        
+       
+        
+        
+        <!--JQuery Conent --->
+        
+
+       
+    
+    </body>
+    
+    </html>
+
+</doctype>

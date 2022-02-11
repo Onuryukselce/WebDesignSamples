@@ -1,0 +1,369 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+    
+}
+
+body {
+    font-family: helvetica;
+    overflow-x: hidden;
+}
+
+
+.jumbotron-billboard .img {
+    color: #fff;
+    background: #000 url("../images/banner-background.png") top center no-repeat;
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 30%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    filter: blur(2px);
+}
+
+.jumbotron h2 {margin-top:0;}
+
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+.jumbotron .container {
+    left:0;
+}
+
+.jumbotron .container p {
+    font-size: 3.5vw;
+    color:white;
+    text-shadow: black 4px 2px;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #3490e9;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#3490e9;
+    text-decoration:none;
+    }
+
+.navbar-brand{
+    
+    padding-bottom: 30px;
+    
+}
+
+#price {
+    margin-right:7%;
+}
+
+.carousel-indicators .active {
+    background-color: dodgerblue;
+}
+
+.carousel-indicators {
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+
+}
+
+
+.carousel-inner {
+    width: 90%;
+    left:5%;
+    right:5%;
+}
+
+.slidebar {
+    position:relative;
+    
+}
+.slidebar #next{
+
+    position: absolute;
+    z-index: 2;
+    right:0%;
+    top:50%;
+    font-size:0.5vw;
+    
+}
+
+.slidebar #prev {
+    position:absolute;
+    left:0%;
+    top:50%;
+    font-size:0.5vw;
+    z-index: 2;
+}
+
+.card-body
+{
+    position:relative;
+}
+ 
+.hideButton
+{
+    position:absolute;
+    top:50%;
+    z-index: 3;
+    left:35%;
+    display: none;
+}
+
+
+
+.card {
+    box-shadow: 0px 1px 4px 2px grey;
+}
+
+
+.col-md-3:hover>.card {
+    filter:blur(3px);
+}
+
+.carousel {
+    margin-bottom: 5%;
+}
+
+
+.photoGallery img {
+    margin:0;
+   width:75%;
+    height:auto;
+    max-height: 500px;
+    
+}
+
+#ownerCard {
+    margin-bottom:2%;
+    float:left;
+}
+
+#ownerCard img {
+    width:25%;
+    
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#footer {
+    clear:both;
+    bottom:0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#price {
+    color:red;
+}
+
+.searchBar2{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .searchInput{
+        
+         color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    border:0
+    }
+
+.searchIcon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#3490e9;
+    text-decoration:none;
+    }
+
+.placeHolder img
+{
+    float:left;
+    margin-right: 1%;
+}
+
+.placeHolder p {
+    position:relative;
+    top:50px;
+}
+
+.placeHolder #nameTag {
+    top:50px;
+    font-size:1.5vw;
+}
+
+.photoGallery {
+    margin-top:1%;
+}
+
+
+
+.imgHolder .img {
+    color: #fff;
+    background: url("../haberler/shutterstock_129797951_16_9_1586934938-880x495.jpg") center no-repeat;
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 30%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    filter: blur(2px);
+}
+
+.imgHolder .img1 {
+    color: #fff;
+    background: url("../haberler/download.jpg") center no-repeat;
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 30%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    filter: blur(2px);
+}
+
+.imgHolder .img2 {
+    color: #fff;
+    background: url("../haberler/download%20(1).jpg") center no-repeat;
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 30%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    filter: blur(2px);
+}
+
+.imgHolder .container {
+    position:relative;
+}
+
+.imgHolder h5 {
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.imgHolder a {
+    text-shadow:2px 2px 2px white;
+}
+
+.header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kurumsalBack {
+    background-color:#e6e6e6;
+    border:0.5px solid black;
+}
+
+.registerPanel {
+    
+    width:25%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-top:10%;
+    margin-bottom:10%;
+    border:0.5px solid blue;
+}
+
+@media screen and (max-width:600px)
+{
+    .placeHolder #nameTag {
+        visibility: hidden;
+    }
+    
+
+}
+
+@media screen and (max-width:1366px)
+{
+
+    .card img {
+        width:100%;
+    }
+}
+
